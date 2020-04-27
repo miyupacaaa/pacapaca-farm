@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ぱかぱか牧場のwebサイトです。">
+  <title>ぱかぱか牧場</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <!-- drawer.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157532860-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-157532860-3');
+  </script>  
+</head>
+<body class="drawer drawer--right">
+  <!-- ヘッダー -->
+  <div class="header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="logo">
+          <a href="" ><img src="img/logo.png" alt="ロゴです"></a>
+        </div>
+        <div class="menu-hamburger">
+          <button type="button" class="drawer-toggle drawer-hamburger">
+            <span class="sr-only">toggle navigation</span>
+            <span class="drawer-hamburger-icon"></span>
+          </button>
+          <nav class="drawer-nav" role="navigation">
+            <ul class="drawer-menu">
+              <li><a class="drawer-brand" href="#">メニュー</a></li>
+              <li><a class="drawer-menu-item" href="">牧場について</a></li>
+              <li><a class="drawer-menu-item" href="">アルパカについて</a></li>
+              <li><a class="drawer-menu-item" href="">商品紹介</a></li>
+              <li><a class="drawer-menu-item" href="">アクセス</a></li>
+              <li><a class="drawer-menu-item" href="">ブログ</a></li>
+            </ul>
+          </nav>
+        </div>
+        <ul class="menu">
+          <li><a href="">牧場について</a></li>
+          <li><a href="">アルパカについて</a></li>
+          <li><a href="">商品紹介</a></li>
+          <li><a href="">アクセス</a></li>
+          <li><a href="">ブログ</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<!-- カバー画像 -->
+  <div class="cover">
+      <div class="cover-text">穏やかな時間を過ごそう</div>
+  </div>
+
+<!-- アバウト -->
+  <div class="about">
+    <div class="container">
+      <div class="about-contents">
+
+        <div class="about-content">
+          <img src ="./img/about1.jpg">
+          <div class="about-content-text">
+            <h3>アルパカについて</h3>
+            <p class="about-comment">アルパカという動物を知っていますか？彼らの魅力や生態を写真と一緒に紹介します！</p>
+            <p class="about-link"><a href="">→ 詳しくはこちら</a></p>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <img src ="./img/about2.jpg">
+          <div class="about-content-text">
+            <h3>牧場について</h3>
+            <p class="about-comment">ぱかぱか牧場は来てくれる皆さんとアルパカが素敵な時間を過ごせるように様々な工夫があります。</p>
+            <p class="about-link"><a href="">→ 詳しくはこちら</a></p>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <img src ="./img/about3.jpg">
+          <div class="about-content-text">
+            <h3>商品紹介</h3>
+            <p class="about-comment">牧場では様々な野菜が育てられています。野菜を買ったり、野菜をたっぷり使った料理を食べることができます。</p>
+            <p class="about-link"><a href="">→ 詳しくはこちら</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ニュース -->
+        <h2>NEWS</h2>
+
+        <div class="news">
+          <div class="container-n">
+            <ul class="news-list">
+              <li>
+                <div class="news-date">2020/03/10</div>
+                <div class="news-content">
+                    <div class="label label-event">イベント</div>
+                    <div class="news-detail"><a href="">アルパカ祭りが開催中です！</a></div>
+                </div>
+              </li>
+              <li>
+                <div class="news-date">2020/03/06</div>
+                <div class="news-content">
+                  <div class="label label-news">おしらせ</div>
+                  <div class="news-detail"><a href="">アルパカの赤ちゃんが生まれました！</a></div>
+              </div>
+              </li>
+              <li>
+                <div class="news-date">2020/03/02</div>
+                <div class="news-content">
+                  <div class="label label-news">おしらせ</div>
+                  <div class="news-detail"><a href="">期間限定のアルパカグッズが発売！</a></div>
+              </div>
+              </li>
+              <li>
+                <div class="news-date">2020/03/01</div>
+                <div class="news-content">
+                  <div class="label label-event">イベント</div>
+                  <div class="news-detail"><a href="">今月のイベント情報です！！</a></div>
+              </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+
+<!-- フッター -->
+  <div class="footer">
+    <div class="container">
+      <div class="sitemap">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">牧場について</a></li>
+          <li><a href="">アルパカについて</a></li>
+          <li><a href="">商品紹介</a></li>
+          <li><a href="">アクセス</a></li>
+          <li><a href="">ブログ</a></li>
+          <li><a href="">会社概要</a></li>
+          <li><a href="">求人情報</a></li>
+          <li><a href="">お問い合わせ</a></li>
+        </ul>        
+      </div>
+
+      <div class="footer-info">
+        <div class="address">
+          <p class="address-name">ぱかぱか牧場</p>
+          <p>〒123-4567</p>
+          <p>ぱか県ぱか市ぱかぱか町12-345</p>
+          <p>TEL:1234-56-7890</p>
+        </div>
+        <div class="copy">
+          (c) Pacapaca Farm
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jquery & iScroll -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+  <!-- drawer.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+  <!-- .bgswitcher.js -->
+  <script src="js/jquery.bgswitcher.js"></script>
+  <script>
+    // スライドショー
+    jQuery(function($) {
+      $('.cover').bgSwitcher({
+       images: ['img/cover1.jpg','img/cover2.jpg','img/cover3.jpg'], 
+    　 interval: 7000,
+    　 loop: true,
+    　 shuffle: false,
+    　 effect: "fade", // fade,blind,clip,slide,drop,hide
+    　 duration: 2000,
+    　 easing: "swing" // linear,swing
+       });
+      });
+
+      // メニュー
+    $(document).ready(function() {
+    $('.drawer').drawer();
+  });
+  </script>
+</body>
+</html>
